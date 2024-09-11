@@ -1,17 +1,9 @@
-import { useState } from "react";
 import "./App.css";
-import Aside from "./components/Aside";
-import Signup from "./components/Signup";
-import Login from "./components/Login";
+
+import SignupPage from "./components/SingupPage";
 
 function App() {
-  return (
-    <>
-      <Aside />
-      <Signup />
-      <Login />
-    </>
-  );
+  return <SignupPage />;
 }
 
 export default App;
